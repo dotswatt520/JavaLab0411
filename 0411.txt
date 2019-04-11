@@ -1,0 +1,78 @@
+stack stack overflow;qitta
+heap 動態,變數allocate記憶體 python r julia ***garbageCollection(GC,java )
+global
+cons
+?
+
+
+intellij
+新增一個object 選jdk目錄的object JavaLab0411 com.cht.training
+gradel gradleLab0411
+->建的專案可以在C:\Users\chtti\IdeaProjects找到
+
+什麼是gradle
+apache ant->maven使用xml 漸漸少人用xml產生一個分支 gradle 使用properties例如groovy
+C:\Users\chtti\IdeaProjects\gradleLab0411\gradle\wrapper ->不用下載也可以使用gradle
+
+敏捷式開發,有內建unitest(cmd 指令gradlew dependencies)
+
+~/gradle.properties
+~/專案的gradle.properties1
+	org.gradle.parallel=true ->多個專案平行建置
+	org.gradle.daemon=ture	->
+	org.gradle.caching=true	->
+
+cmd
+C:\Users\chtti\IdeaProjects\gradleLab0411\
+gradlew --version
+gradlew dependencies 但很多失敗
+	C:\Users\chtti\.gradle\新增gradle.properties
+	拉到intellij編輯
+	systemProp.http.proxyHost=proxy.cht.com.tw
+	systemProp.http.proxyPort=8080
+	systemProp.https.proxyHost=proxy.cht.com.tw
+	systemPorp.https.proxyPort=8080
+
+告訴gradle怎用
+bulid.gradle目錄打開,plugins使用java,按ok按鈕
+it -> gradle(剛按下按鈕的動作) -> task
+
+改設定
+[editor] /font/ source code pro 18,0.8;/generral/ 打勾chagen font size with ctrl
+[reopen]
+[help]/edit custom vm option/
+heap
+-xms 1536
+-xms 2048
+16G memory 1.5G-1536 2G-2048
+[editor] color scheme / laguage defalts 把註解斜體拿掉
+[editor] general / other / show quick 3500秒 或按ctrl+Q
+[editor] file encodings
+alt+enter
+選字+按ctrl
+shift+ctrl+f9
+ctrl+alt+l 
+alt+insert -> generate 建構子
+--
+OpenBoard
+https://git-scm.com/download/win
+commit後
+cmd more .gitconfig
+
+--
+uml distilled書,天瓏
+uml refactoring 馬丁的書
+
+www.modelio.org書uml的圖
+
+gener ->overwrite
+include ->import
+extend ->繼承
+
+functional program java不是
+->
+scala lambda
+
+
+java ->(javac) -> class ->(jar) ->.jar
+在termial模式,已javac後可以打這秀javap main.class
