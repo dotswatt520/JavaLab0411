@@ -15,6 +15,12 @@ public class Main20 {
         System.out.println("s2:" + s2);
         System.out.println("s3:" + s3);
         System.out.println("s4:" + s4);
+
+        System.out.printf("s1:%s\n",s1);
+        System.out.printf("x1:%b\n",x1);
+        System.out.printf("x2:%d\n",x2);
+        System.out.printf("x3:%.1f\n",x3);
+        System.out.printf("x4:%.12f\n",x4);
     }
 }
 
