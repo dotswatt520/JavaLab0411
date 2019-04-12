@@ -1,7 +1,7 @@
 package com.cht.training.Lab13;
 
 public class Employee {
-    private int counter;
+    private static int counter;
 
     public Employee() {
         counter ++;
