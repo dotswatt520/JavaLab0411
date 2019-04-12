@@ -1,7 +1,5 @@
 package com.cht.training;
 
-package com.cht.training;
-
 public class Main22 {
     private static final String S1="Hello world java progrmming";
     private static final String S2="Hello_world_java_progrmming";
