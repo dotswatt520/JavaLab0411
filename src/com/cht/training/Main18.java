@@ -8,5 +8,12 @@ public class Main18 {
         System.out.println("find 'day':" + weekDays.indexOf(key));
         System.out.println("last idex if :" + weekDays.lastIndexOf(key));
         System.out.println("total length:" + weekDays.length());
+
+        int index = 0;
+        while (weekDays.indexOf(key, index) > -1) {
+            index = weekDays.indexOf(key, index);
+            System.out.println("get a index" + index);
+            index += key.length();
+        }
     }
 }
