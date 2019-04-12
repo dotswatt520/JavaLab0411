@@ -20,7 +20,7 @@ public class Main21 {
         System.out.printf("\n");
             //***一到多個非空白
         Pattern p2=Pattern.compile("[^\\s]]");
-        Matcher matcher2 = p1.matcher(S1);
+        Matcher matcher2 = p2.matcher(S1);
 
         while (matcher2.find()){
             System.out.printf("(%s) ",matcher2.group());
@@ -35,7 +35,7 @@ public class Main21 {
 
             //***非一到多個_
         Pattern p3=Pattern.compile("[^_]]");
-        Matcher matcher3 = p1.matcher(S2);
+        Matcher matcher3 = p3.matcher(S2);
 
         while (matcher3.find()){
             System.out.printf("(%s) ",matcher3.group());
@@ -49,7 +49,7 @@ public class Main21 {
         //************************************************************************8
             //***非一到多個\
         Pattern p4=Pattern.compile("[^\\\\]]");
-        Matcher matcher4 = p1.matcher(S3);
+        Matcher matcher4 = p4.matcher(S3);
 
         while (matcher4.find()){
             System.out.printf("(%s) ",matcher4.group());
@@ -63,7 +63,7 @@ public class Main21 {
         //************************************************************************8
             //***非一到多個/
         Pattern p5=Pattern.compile("[^/]]");
-        Matcher matcher5 = p1.matcher(S4);
+        Matcher matcher5 = p5.matcher(S4);
 
         while (matcher5.find()){
             System.out.printf("(%s) ",matcher5.group());
