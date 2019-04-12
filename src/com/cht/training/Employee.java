@@ -1,15 +1,28 @@
 package com.cht.training;
 
 public class Employee {
-    private String name;
+    static {
+        System.out.println("***run something...");
+        counter=500;
+    }
 
-    private static int counter;
+    private String name;
+    private static int counter; //static的重要,已可使用,但宣告在下面.jave bytecode
+
+    public int getCounter2() {
+        return counter;
+    }
+
+    public static int getCounter() {
+        return counter;
+    }
+
 
     public Employee() {
     } //空的建構子
 
-    public Employee(String name) {
 
+    public Employee(String name) {
         this.name = name;
         counter++;
     }
