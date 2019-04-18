@@ -53,6 +53,8 @@ alt+enter
 shift+ctrl+f9
 ctrl+alt+l 
 alt+insert -> generate 建構子
+ctrl+H 看出物件的繼承關係
+alt+shift 移動(***)
 --
 OpenBoard
 https://git-scm.com/download/win
@@ -68,6 +70,18 @@ www.modelio.org書uml的圖
 gener ->overwrite
 include ->import
 extend ->繼承
+static
+	gof design patterm (singleton)
+abstract 弱且惟弱 裡面有宣告abstract時.class也要是abstract
+imuntable final修飾子
+synchronized 同步,先做的要先結束,不能先做的後結束
+
+Java - > JNI
+
+
+= = compare
+primite object的觀念
+
 
 functional program java不是
 ->
