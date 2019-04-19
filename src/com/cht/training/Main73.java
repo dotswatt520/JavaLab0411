@@ -12,13 +12,13 @@ public class Main73 {
 
 
     public static void main(String[] args) throws IOException {
-        byte[] buffer = new byte[1024];
-        try(ZipOutputStream zipOutputStream = new ZipOutputStream(new FileOutputStream(ZIP_FILE_NAME));
-            FileInputStream inputStream = new FileInputStream(FILE_NAME))
-        }
-            ZipOutputStream.putNextEnty(new ZipEntry(FILE_NAME ));
-            int lengthRead=0;
-            while(())
+        //byte[] buffer = new byte[1024];
+        //try(ZipOutputStream zipOutputStream = new ZipOutputStream(new FileOutputStream(ZIP_FILE_NAME));
+        //    FileInputStream inputStream = new FileInputStream(FILE_NAME))
+        //}
+        //    ZipOutputStream.putNextEnty(new ZipEntry(FILE_NAME ));
+        //    int lengthRead=0;
+        //   while(())
     }
 }
 
